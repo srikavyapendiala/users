@@ -1,9 +1,10 @@
 [Unit]
-Description=users Service
+Description=users service
 
 [Service]
-ExecStart=java -jar /root/shellscripting-todo/todo/users/target/users-api-0.0.1.jar
+
 Environment=SERVER_PORT=8080
+ExecStart=/bin/java -jar /root/todoshell/users/target/users-api-0.0.1.jar
 SyslogIdentifier=users
 
 [Install]
