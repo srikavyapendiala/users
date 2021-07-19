@@ -1,5 +1,5 @@
 [Unit]
-Description=Users Service
+Description=users Service
 
 [Service]
 ExecStart=java -jar /root/shellscripting/todo/users/target/users-api-0.0.1.jar
